@@ -69,7 +69,7 @@ namespace WpfApp1
                 btnplay.Content = "Pause";
                 VidPlayer.Play();
                 mediaPlayerIsPlaying = true;
-            }
+            } 
 
 
 
