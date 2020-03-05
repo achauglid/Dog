@@ -70,7 +70,7 @@ namespace WpfApp1
                 VidPlayer.Play();
                 mediaPlayerIsPlaying = true;
             } 
-
+              
 
 
         }
