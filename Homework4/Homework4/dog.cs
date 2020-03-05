@@ -8,7 +8,7 @@ namespace Homework4
 {
     class dog
     {
-
+         
         public string message { get; set; }
         public string status { get; set; }
 
