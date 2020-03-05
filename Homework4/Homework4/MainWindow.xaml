@@ -1,0 +1,17 @@
+﻿<Window x:Class="Homework4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Please enter a dog breed" HorizontalAlignment="Left" Margin="48,92,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDogBreed" HorizontalAlignment="Left" Height="23" Margin="58,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Dog Breed App" HorizontalAlignment="Left" Margin="246,24,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="82,168,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Image x:Name="picDog" HorizontalAlignment="Left" Height="237" Margin="340,118,0,0" VerticalAlignment="Top" Width="336"/>
+
+    </Grid>
+</Window>
